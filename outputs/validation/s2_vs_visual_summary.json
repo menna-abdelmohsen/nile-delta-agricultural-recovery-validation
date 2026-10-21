@@ -1,0 +1,88 @@
+{
+  "n_compared": 30,
+  "crosstab_visual_vs_s2_verdict": {
+    "AMBIGUOUS (conversion questionable)": {
+      "NOT_AG_BEFORE": 0,
+      "NO_CONVERSION_SEEN": 1,
+      "PERSISTENT_NONAG": 0,
+      "RECOVERY": 0,
+      "UNCLEAR": 1
+    },
+    "CONFIRMED PERSISTENT": {
+      "NOT_AG_BEFORE": 6,
+      "NO_CONVERSION_SEEN": 2,
+      "PERSISTENT_NONAG": 0,
+      "RECOVERY": 1,
+      "UNCLEAR": 1
+    },
+    "FALSE POSITIVE": {
+      "NOT_AG_BEFORE": 2,
+      "NO_CONVERSION_SEEN": 2,
+      "PERSISTENT_NONAG": 2,
+      "RECOVERY": 4,
+      "UNCLEAR": 2
+    },
+    "INCONCLUSIVE": {
+      "NOT_AG_BEFORE": 4,
+      "NO_CONVERSION_SEEN": 0,
+      "PERSISTENT_NONAG": 0,
+      "RECOVERY": 0,
+      "UNCLEAR": 0
+    },
+    "TRUE RECOVERY": {
+      "NOT_AG_BEFORE": 1,
+      "NO_CONVERSION_SEEN": 1,
+      "PERSISTENT_NONAG": 0,
+      "RECOVERY": 0,
+      "UNCLEAR": 0
+    }
+  },
+  "agreement_3class": {
+    "observed": 0.5,
+    "kappa": -0.21621621621621595
+  },
+  "agreement_decided_pairs": {
+    "n": 22,
+    "observed": 0.6818181818181818,
+    "kappa": -0.1492537313432839
+  },
+  "recovery_candidates_s2": {
+    "NOT_AG_BEFORE": 7,
+    "RECOVERY": 4,
+    "NO_CONVERSION_SEEN": 3,
+    "UNCLEAR": 2,
+    "PERSISTENT_NONAG": 2
+  },
+  "recovery_candidates_s2_by_tier": {
+    "A": {
+      "NOT_AG_BEFORE": 3,
+      "NO_CONVERSION_SEEN": 0,
+      "PERSISTENT_NONAG": 0,
+      "RECOVERY": 1,
+      "UNCLEAR": 0
+    },
+    "B": {
+      "NOT_AG_BEFORE": 2,
+      "NO_CONVERSION_SEEN": 1,
+      "PERSISTENT_NONAG": 2,
+      "RECOVERY": 0,
+      "UNCLEAR": 0
+    },
+    "C": {
+      "NOT_AG_BEFORE": 2,
+      "NO_CONVERSION_SEEN": 2,
+      "PERSISTENT_NONAG": 0,
+      "RECOVERY": 3,
+      "UNCLEAR": 2
+    }
+  },
+  "persistent_all_314_s2": {
+    "NOT_AG_BEFORE": 100,
+    "NO_CONVERSION_SEEN": 95,
+    "PERSISTENT_NONAG": 76,
+    "UNCLEAR": 29,
+    "RECOVERY": 14
+  },
+  "persistent_water_any_year": 0,
+  "recovery_water_any_year": 0
+}

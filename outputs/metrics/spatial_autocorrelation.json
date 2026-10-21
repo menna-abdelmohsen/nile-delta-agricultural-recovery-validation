@@ -1,0 +1,30 @@
+{
+  "El-Bagalat": {
+    "morans_i": 0.11203703703703533,
+    "expected_I_null": -0.011111111111111112,
+    "n": 91,
+    "k_neighbors": 8,
+    "observed_I": 0.11203703703703533,
+    "p_value_permutation": 0.014,
+    "n_permutations": 999,
+    "nearest_neighbor_distance_m": {
+      "median": 258.9904253263547,
+      "p90": 628.7082617674148,
+      "max": 1039.888120013088
+    }
+  },
+  "Mit_Salsil": {
+    "morans_i": -0.015343915343914927,
+    "expected_I_null": -0.0045871559633027525,
+    "n": 219,
+    "k_neighbors": 8,
+    "observed_I": -0.015343915343914927,
+    "p_value_permutation": 0.673,
+    "n_permutations": 999,
+    "nearest_neighbor_distance_m": {
+      "median": 111.51087694766747,
+      "p90": 372.35154382554646,
+      "max": 869.8523436281777
+    }
+  }
+}

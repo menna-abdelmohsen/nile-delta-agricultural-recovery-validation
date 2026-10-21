@@ -1,0 +1,58 @@
+{
+  "El-Bagalat_majority_0.5": {
+    "majority_fraction_required": 0.5,
+    "n_parcels_total": 91,
+    "n_strict_recovery": 5,
+    "n_original_label_recovery": 10,
+    "n_agree_with_original": 86
+  },
+  "El-Bagalat_majority_0.7": {
+    "majority_fraction_required": 0.7,
+    "n_parcels_total": 91,
+    "n_strict_recovery": 3,
+    "n_original_label_recovery": 10,
+    "n_agree_with_original": 84
+  },
+  "El-Bagalat_majority_0.9": {
+    "majority_fraction_required": 0.9,
+    "n_parcels_total": 91,
+    "n_strict_recovery": 2,
+    "n_original_label_recovery": 10,
+    "n_agree_with_original": 83
+  },
+  "El-Bagalat_majority_1.0": {
+    "majority_fraction_required": 1.0,
+    "n_parcels_total": 91,
+    "n_strict_recovery": 2,
+    "n_original_label_recovery": 10,
+    "n_agree_with_original": 83
+  },
+  "Mit_Salsil_majority_0.5": {
+    "majority_fraction_required": 0.5,
+    "n_parcels_total": 220,
+    "n_strict_recovery": 23,
+    "n_original_label_recovery": 30,
+    "n_agree_with_original": 213
+  },
+  "Mit_Salsil_majority_0.7": {
+    "majority_fraction_required": 0.7,
+    "n_parcels_total": 220,
+    "n_strict_recovery": 13,
+    "n_original_label_recovery": 30,
+    "n_agree_with_original": 203
+  },
+  "Mit_Salsil_majority_0.9": {
+    "majority_fraction_required": 0.9,
+    "n_parcels_total": 220,
+    "n_strict_recovery": 5,
+    "n_original_label_recovery": 30,
+    "n_agree_with_original": 195
+  },
+  "Mit_Salsil_majority_1.0": {
+    "majority_fraction_required": 1.0,
+    "n_parcels_total": 220,
+    "n_strict_recovery": 2,
+    "n_original_label_recovery": 30,
+    "n_agree_with_original": 192
+  }
+}

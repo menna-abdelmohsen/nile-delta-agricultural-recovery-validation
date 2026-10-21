@@ -1,0 +1,23 @@
+{
+  "window": "Mit_Salsil",
+  "years_covered": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "n_pixels_converted_total": 3112,
+  "n_pixels_recovery": 302,
+  "n_pixels_persistent": 2810,
+  "n_pixels_excluded_indeterminate": 0,
+  "n_parcel_recovery_EVENTS": 10,
+  "n_parcel_persistent_EVENTS": 92,
+  "n_parcel_excluded_EVENTS": 0,
+  "n_parcels_total": 102,
+  "mmu_pixels": 18,
+  "recovery_min_consecutive_years": 2
+}

@@ -1,0 +1,86 @@
+{
+  "n": 209,
+  "n_positive": 9,
+  "features": [
+    {
+      "feature": "agri_fraction_r100m",
+      "mean_abs_shap": 1.4693683306500978,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "builtup_fraction_r100m",
+      "mean_abs_shap": 1.2383527560376195,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "mean_elevation_m",
+      "mean_abs_shap": 1.1056479885741188,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "conversion_year",
+      "mean_abs_shap": 0.9883126981395154,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "years_since_conversion",
+      "mean_abs_shap": 0.9883126981395146,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "perimeter_m",
+      "mean_abs_shap": 0.7179799127019657,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "builtup_fraction_r250m",
+      "mean_abs_shap": 0.5421856978749601,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "area_m2",
+      "mean_abs_shap": 0.49684993458236615,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "distance_to_road_m_2019",
+      "mean_abs_shap": 0.4182745331331604,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "compactness",
+      "mean_abs_shap": 0.39169756594775645,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "agri_fraction_r500m",
+      "mean_abs_shap": 0.3542624906018052,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "builtup_fraction_r500m",
+      "mean_abs_shap": 0.3138190592750938,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "agri_fraction_r250m",
+      "mean_abs_shap": 0.16016973075767282,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "distance_to_agriculture_m",
+      "mean_abs_shap": 0.15119384686791237,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "distance_to_irrigation_m_2019",
+      "mean_abs_shap": 0.013697698706250762,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "elevation_range_m",
+      "mean_abs_shap": 0.0,
+      "coef_sign": "-"
+    }
+  ]
+}

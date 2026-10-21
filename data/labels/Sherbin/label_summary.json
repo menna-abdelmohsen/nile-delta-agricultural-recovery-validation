@@ -1,0 +1,23 @@
+{
+  "window": "Sherbin",
+  "years_covered": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "n_pixels_converted_total": 2909,
+  "n_pixels_recovery": 185,
+  "n_pixels_persistent": 2724,
+  "n_pixels_excluded_indeterminate": 0,
+  "n_parcel_recovery_EVENTS": 6,
+  "n_parcel_persistent_EVENTS": 66,
+  "n_parcel_excluded_EVENTS": 0,
+  "n_parcels_total": 72,
+  "mmu_pixels": 18,
+  "recovery_min_consecutive_years": 2
+}

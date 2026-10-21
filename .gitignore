@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/raw/*/io_lulc/
+data/raw/*/esa_worldcover/
+data/raw/*/dem/
+data/raw/*/sentinel2_*/

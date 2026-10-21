@@ -1,0 +1,6 @@
+{
+  "brier_uncalibrated": 0.033762017076432026,
+  "brier_calibrated": 0.013049763940383149,
+  "n_calibration_folds": 5,
+  "caveat": "Calibrated and evaluated on the same pool - no independent held-out test set exists in this design."
+}

@@ -1,0 +1,62 @@
+{
+  "El-Bagalat": {
+    "window": "El-Bagalat",
+    "n_recovery_events_total": 1,
+    "recovery_events_by_tier": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "n_persistent_events_total": 39,
+    "persistent_events_by_tier": {
+      "A": 14,
+      "B": 13,
+      "C": 12
+    }
+  },
+  "Mit_Salsil": {
+    "window": "Mit_Salsil",
+    "n_recovery_events_total": 10,
+    "recovery_events_by_tier": {
+      "A": 2,
+      "B": 2,
+      "C": 6
+    },
+    "n_persistent_events_total": 92,
+    "persistent_events_by_tier": {
+      "A": 30,
+      "B": 34,
+      "C": 28
+    }
+  },
+  "Talkha": {
+    "window": "Talkha",
+    "n_recovery_events_total": 1,
+    "recovery_events_by_tier": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "n_persistent_events_total": 117,
+    "persistent_events_by_tier": {
+      "A": 30,
+      "B": 44,
+      "C": 43
+    }
+  },
+  "Sherbin": {
+    "window": "Sherbin",
+    "n_recovery_events_total": 6,
+    "recovery_events_by_tier": {
+      "A": 1,
+      "B": 4,
+      "C": 1
+    },
+    "n_persistent_events_total": 66,
+    "persistent_events_by_tier": {
+      "A": 23,
+      "B": 23,
+      "C": 20
+    }
+  }
+}

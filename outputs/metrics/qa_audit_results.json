@@ -1,0 +1,19 @@
+{
+  "passed": [
+    "CRS consistency across all io_lulc rasters, all windows",
+    "All conversion_year values within [2017, 2024]",
+    "years_since_conversion always >= 0 (no reversed time order)",
+    "No duplicate event_id",
+    "outcome is binary {0,1} only",
+    "label_confidence_tier is one of {A,B,C}",
+    "No missing values in non-NDVI core feature columns",
+    "NDVI missingness confined to the two documented windows only (Talkha, Sherbin)",
+    "El-Bagalat: parcel_id/trajectory_label/first_conversion_year share grid",
+    "Mit_Salsil: parcel_id/trajectory_label/first_conversion_year share grid",
+    "Talkha: parcel_id/trajectory_label/first_conversion_year share grid",
+    "Sherbin: parcel_id/trajectory_label/first_conversion_year share grid",
+    "No spatial overlap between the 4 study windows",
+    "Every EXECUTED experiment has a non-empty output_paths field"
+  ],
+  "failed": []
+}

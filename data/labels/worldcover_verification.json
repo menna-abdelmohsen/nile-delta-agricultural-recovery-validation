@@ -1,0 +1,166 @@
+{
+  "El-Bagalat": {
+    "window": "El-Bagalat",
+    "product_agreement_wholewindow": {
+      "2020": {
+        "builtup_iou": 0.7109178023332171,
+        "cropland_iou": 0.9060825140625507
+      },
+      "2021": {
+        "builtup_iou": 0.7511305915123709,
+        "cropland_iou": 0.8625568221450165
+      }
+    },
+    "recovery_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 22,
+        "n_crop_class_agree": 0,
+        "n_built_class_agree": 19,
+        "n_disagree_or_other": 3
+      },
+      "2021": {
+        "n_pixels": 22,
+        "n_crop_class_agree": 0,
+        "n_built_class_agree": 17,
+        "n_disagree_or_other": 5
+      }
+    },
+    "persistent_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 1124,
+        "n_crop_class_agree": 538,
+        "n_built_class_agree": 57,
+        "n_disagree_or_other": 529
+      },
+      "2021": {
+        "n_pixels": 1124,
+        "n_crop_class_agree": 352,
+        "n_built_class_agree": 111,
+        "n_disagree_or_other": 661
+      }
+    }
+  },
+  "Mit_Salsil": {
+    "window": "Mit_Salsil",
+    "product_agreement_wholewindow": {
+      "2020": {
+        "builtup_iou": 0.6612657048295363,
+        "cropland_iou": 0.8908751594699277
+      },
+      "2021": {
+        "builtup_iou": 0.7003328739189657,
+        "cropland_iou": 0.8436529479195802
+      }
+    },
+    "recovery_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 302,
+        "n_crop_class_agree": 12,
+        "n_built_class_agree": 111,
+        "n_disagree_or_other": 179
+      },
+      "2021": {
+        "n_pixels": 302,
+        "n_crop_class_agree": 0,
+        "n_built_class_agree": 147,
+        "n_disagree_or_other": 155
+      }
+    },
+    "persistent_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 2810,
+        "n_crop_class_agree": 1205,
+        "n_built_class_agree": 292,
+        "n_disagree_or_other": 1313
+      },
+      "2021": {
+        "n_pixels": 2810,
+        "n_crop_class_agree": 608,
+        "n_built_class_agree": 500,
+        "n_disagree_or_other": 1702
+      }
+    }
+  },
+  "Talkha": {
+    "window": "Talkha",
+    "product_agreement_wholewindow": {
+      "2020": {
+        "builtup_iou": 0.843792641746606,
+        "cropland_iou": 0.794830230647893
+      },
+      "2021": {
+        "builtup_iou": 0.8645425504111807,
+        "cropland_iou": 0.7971794726088149
+      }
+    },
+    "recovery_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 18,
+        "n_crop_class_agree": 5,
+        "n_built_class_agree": 6,
+        "n_disagree_or_other": 7
+      },
+      "2021": {
+        "n_pixels": 18,
+        "n_crop_class_agree": 0,
+        "n_built_class_agree": 12,
+        "n_disagree_or_other": 6
+      }
+    },
+    "persistent_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 6843,
+        "n_crop_class_agree": 2244,
+        "n_built_class_agree": 390,
+        "n_disagree_or_other": 4209
+      },
+      "2021": {
+        "n_pixels": 6843,
+        "n_crop_class_agree": 1263,
+        "n_built_class_agree": 1622,
+        "n_disagree_or_other": 3958
+      }
+    }
+  },
+  "Sherbin": {
+    "window": "Sherbin",
+    "product_agreement_wholewindow": {
+      "2020": {
+        "builtup_iou": 0.7394476095186183,
+        "cropland_iou": 0.8964006241506602
+      },
+      "2021": {
+        "builtup_iou": 0.7639058610545372,
+        "cropland_iou": 0.8782775299310935
+      }
+    },
+    "recovery_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 185,
+        "n_crop_class_agree": 32,
+        "n_built_class_agree": 25,
+        "n_disagree_or_other": 128
+      },
+      "2021": {
+        "n_pixels": 185,
+        "n_crop_class_agree": 0,
+        "n_built_class_agree": 58,
+        "n_disagree_or_other": 127
+      }
+    },
+    "persistent_pixel_corroboration_by_year": {
+      "2020": {
+        "n_pixels": 2724,
+        "n_crop_class_agree": 910,
+        "n_built_class_agree": 382,
+        "n_disagree_or_other": 1432
+      },
+      "2021": {
+        "n_pixels": 2724,
+        "n_crop_class_agree": 644,
+        "n_built_class_agree": 584,
+        "n_disagree_or_other": 1496
+      }
+    }
+  }
+}

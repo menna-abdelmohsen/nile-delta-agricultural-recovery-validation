@@ -1,0 +1,24 @@
+{
+  "model_a": "random_forest",
+  "model_b": "logistic_regression",
+  "pr_auc_diff": {
+    "point_diff": 0.062371733205066504,
+    "ci_low": -0.1823508264127199,
+    "ci_high": 0.2446875161875162,
+    "ci_excludes_zero": false,
+    "n_valid_boot": 2000
+  },
+  "roc_auc_diff_bootstrap": {
+    "point_diff": -0.016111111111111187,
+    "ci_low": -0.06759028858335667,
+    "ci_high": 0.015001884422110557,
+    "ci_excludes_zero": false,
+    "n_valid_boot": 2000
+  },
+  "mcnemar_at_threshold": {
+    "n01": 13,
+    "n10": 5,
+    "statistic": 5.0,
+    "p_value": 0.09625244140625
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "n_false_positives": 15,
+  "n_false_negatives": 1,
+  "false_positive_events": [
+    {
+      "event_id": "Mit_Salsil_persistent_3",
+      "window": "Mit_Salsil",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "A",
+      "oof_proba": 0.7202695641741264,
+      "area_m2": 8000.0,
+      "agri_fraction_r100m": 0.8322784810126582,
+      "years_since_conversion": 4,
+      "historical_ndvi_mean": 0.3006883859634399
+    },
+    {
+      "event_id": "Mit_Salsil_persistent_7",
+      "window": "Mit_Salsil",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "A",
+      "oof_proba": 0.6884446938482768,
+      "area_m2": 2500.0,
+      "agri_fraction_r100m": 0.7341772151898734,
+      "years_since_conversion": 4,
+      "historical_ndvi_mean": 0.3900565207004547
+    },
+    {
+      "event_id": "Mit_Salsil_persistent_25",
+      "window": "Mit_Salsil",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "A",
+      "oof_proba": 0.9975671117330115,
+      "area_m2": 1800.0,
+      "agri_fraction_r100m": 0.8924050632911392,
+      "years_since_conversion": 4,
+      "historical_ndvi_mean": 0.390398621559143
+    },
+    {
+      "event_id": "Mit_Salsil_persistent_27",
+      "window": "Mit_Salsil",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "A",
+      "oof_proba": 0.5737604840410084,
+      "area_m2": 3700.0,
+      "agri_fraction_r100m": 0.5411392405063291,
+      "years_since_conversion": 4,
+      "historical_ndvi_mean": 0.2458880543708801
+    },
+    {
+      "event_id": "Mit_Salsil_persistent_33",
+      "window": "Mit_Salsil",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.5408563987904408,
+      "area_m2": 2000.0,
+      "agri_fraction_r100m": 0.7492063492063492,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": 0.4372185170650482
+    },
+    {
+      "event_id": "Mit_Salsil_persistent_48",
+      "window": "Mit_Salsil",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "A",
+      "oof_proba": 0.622352420891388,
+      "area_m2": 2000.0,
+      "agri_fraction_r100m": 0.7421383647798742,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": 0.3619276881217956
+    },
+    {
+      "event_id": "Mit_Salsil_persistent_69",
+      "window": "Mit_Salsil",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.5370129836407896,
+      "area_m2": 1800.0,
+      "agri_fraction_r100m": 0.8910256410256411,
+      "years_since_conversion": 2,
+      "historical_ndvi_mean": 0.5447839498519897
+    },
+    {
+      "event_id": "Talkha_persistent_23",
+      "window": "Talkha",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.689555448901071,
+      "area_m2": 5100.0,
+      "agri_fraction_r100m": 0.7356687898089171,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": NaN
+    },
+    {
+      "event_id": "Talkha_persistent_30",
+      "window": "Talkha",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.5426361637726671,
+      "area_m2": 6700.0,
+      "agri_fraction_r100m": 0.5880503144654088,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": NaN
+    },
+    {
+      "event_id": "Talkha_persistent_41",
+      "window": "Talkha",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.9131166629089918,
+      "area_m2": 2300.0,
+      "agri_fraction_r100m": 0.6772151898734177,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": NaN
+    },
+    {
+      "event_id": "Talkha_persistent_57",
+      "window": "Talkha",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.9292780895423525,
+      "area_m2": 2500.0,
+      "agri_fraction_r100m": 0.926984126984127,
+      "years_since_conversion": 2,
+      "historical_ndvi_mean": NaN
+    },
+    {
+      "event_id": "Talkha_persistent_107",
+      "window": "Talkha",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.8909796829954348,
+      "area_m2": 2300.0,
+      "agri_fraction_r100m": 0.8634920634920635,
+      "years_since_conversion": 1,
+      "historical_ndvi_mean": NaN
+    },
+    {
+      "event_id": "Sherbin_persistent_22",
+      "window": "Sherbin",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.5068493075418995,
+      "area_m2": 2300.0,
+      "agri_fraction_r100m": 0.6719745222929936,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": NaN
+    },
+    {
+      "event_id": "Sherbin_persistent_27",
+      "window": "Sherbin",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.9492319457829602,
+      "area_m2": 1900.0,
+      "agri_fraction_r100m": 0.832258064516129,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": NaN
+    },
+    {
+      "event_id": "Sherbin_persistent_39",
+      "window": "Sherbin",
+      "outcome_name": "persistent",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.5806977898548867,
+      "area_m2": 2700.0,
+      "agri_fraction_r100m": 0.8571428571428571,
+      "years_since_conversion": 2,
+      "historical_ndvi_mean": NaN
+    }
+  ],
+  "false_negative_events": [
+    {
+      "event_id": "Talkha_recovery_35",
+      "window": "Talkha",
+      "outcome_name": "recovery",
+      "label_confidence_tier": "B",
+      "oof_proba": 0.11334160951597329,
+      "area_m2": 1800.0,
+      "agri_fraction_r100m": 0.5737179487179487,
+      "years_since_conversion": 3,
+      "historical_ndvi_mean": NaN
+    }
+  ],
+  "false_positive_note": "Mean agri_fraction_r100m for false positives (0.769) vs. true negatives (0.440) - higher surrounding-agriculture connectivity may explain why the model over-predicted recovery here.",
+  "false_negative_note": "False-negative label-confidence tier distribution: {'B': 1} - if concentrated in Tier B (medium confidence), some of these 'errors' may reflect label uncertainty rather than genuine model failure."
+}

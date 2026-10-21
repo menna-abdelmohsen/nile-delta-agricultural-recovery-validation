@@ -1,0 +1,698 @@
+{
+  "no_RS_gis_geom_env_temporal": {
+    "n_used": 209,
+    "n_dropped_for_nan": 0,
+    "logistic_regression": {
+      "model": "no_RS_gis_geom_env_temporal/logistic_regression",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.5137085137085137,
+      "pr_auc_95ci": {
+        "ci_low": 0.25931791819291816,
+        "ci_high": 0.8636387223887224,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.9616666666666667,
+      "roc_auc_95ci": {
+        "ci_low": 0.9195032459652955,
+        "ci_high": 0.9915134370579916,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.5,
+      "balanced_accuracy_at_0.5": 0.9069444444444444,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "random_forest": {
+      "model": "no_RS_gis_geom_env_temporal/random_forest",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.5760802469135802,
+      "pr_auc_95ci": {
+        "ci_low": 0.2609200707625133,
+        "ci_high": 0.8844096320346319,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.9455555555555555,
+      "roc_auc_95ci": {
+        "ci_low": 0.8587831220357913,
+        "ci_high": 0.9938892276422765,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.42857142857142855,
+      "balanced_accuracy_at_0.5": 0.6616666666666666,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "xgboost": {
+      "model": "no_RS_gis_geom_env_temporal/xgboost",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.5729087089381206,
+      "pr_auc_95ci": {
+        "ci_low": 0.2277795703261542,
+        "ci_high": 0.8507670536163181,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.9483333333333333,
+      "roc_auc_95ci": {
+        "ci_low": 0.8917930810938235,
+        "ci_high": 0.9899510050251256,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.4444444444444444,
+      "balanced_accuracy_at_0.5": 0.7097222222222221,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "lightgbm": {
+      "model": "no_RS_gis_geom_env_temporal/lightgbm",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.4295315835886011,
+      "pr_auc_95ci": {
+        "ci_low": 0.1828598484848485,
+        "ci_high": 0.79309145453053,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.94,
+      "roc_auc_95ci": {
+        "ci_low": 0.8855686208279676,
+        "ci_high": 0.9841537154586538,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.5555555555555556,
+      "balanced_accuracy_at_0.5": 0.7677777777777778,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    }
+  },
+  "RS_only_historical_ndvi": {
+    "n_used": 209,
+    "n_dropped_for_nan": 0,
+    "logistic_regression": {
+      "model": "RS_only_historical_ndvi/logistic_regression",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.10917859519977216,
+      "pr_auc_95ci": {
+        "ci_low": 0.04427441952241016,
+        "ci_high": 0.2317824645464208,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.7477777777777779,
+      "roc_auc_95ci": {
+        "ci_low": 0.5477469500196772,
+        "ci_high": 0.887439652632156,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.21875,
+      "balanced_accuracy_at_0.5": 0.768888888888889,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "random_forest": {
+      "model": "RS_only_historical_ndvi/random_forest",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.2698079095137919,
+      "pr_auc_95ci": {
+        "ci_low": 0.09239219223377568,
+        "ci_high": 0.5996249456807965,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.8394444444444443,
+      "roc_auc_95ci": {
+        "ci_low": 0.6691198175787728,
+        "ci_high": 0.959453431372549,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.15384615384615385,
+      "balanced_accuracy_at_0.5": 0.5480555555555555,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "xgboost": {
+      "model": "RS_only_historical_ndvi/xgboost",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.25888957642064986,
+      "pr_auc_95ci": {
+        "ci_low": 0.09003690575927248,
+        "ci_high": 0.5899510864952042,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.7844444444444444,
+      "roc_auc_95ci": {
+        "ci_low": 0.5598974033772026,
+        "ci_high": 0.9663464696223316,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.4444444444444444,
+      "balanced_accuracy_at_0.5": 0.7097222222222221,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "lightgbm": {
+      "model": "RS_only_historical_ndvi/lightgbm",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.23798919453211947,
+      "pr_auc_95ci": {
+        "ci_low": 0.08528509047114227,
+        "ci_high": 0.5559945170426535,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.815,
+      "roc_auc_95ci": {
+        "ci_low": 0.5901799824407375,
+        "ci_high": 0.9567858209008265,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.25,
+      "balanced_accuracy_at_0.5": 0.5986111111111111,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    }
+  },
+  "all_features_RS_plus_GIS_etc": {
+    "n_used": 209,
+    "n_dropped_for_nan": 0,
+    "logistic_regression": {
+      "model": "all_features_RS_plus_GIS_etc/logistic_regression",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.4896184062850729,
+      "pr_auc_95ci": {
+        "ci_low": 0.23836419193691355,
+        "ci_high": 0.8386112685815063,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.9538888888888889,
+      "roc_auc_95ci": {
+        "ci_low": 0.9011161703856952,
+        "ci_high": 0.9901489906307351,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.45161290322580644,
+      "balanced_accuracy_at_0.5": 0.851388888888889,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "random_forest": {
+      "model": "all_features_RS_plus_GIS_etc/random_forest",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.6515692640692641,
+      "pr_auc_95ci": {
+        "ci_low": 0.31308875849617673,
+        "ci_high": 0.9253023431594858,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.9333333333333332,
+      "roc_auc_95ci": {
+        "ci_low": 0.8236004830455784,
+        "ci_high": 0.996078431372549,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.46153846153846156,
+      "balanced_accuracy_at_0.5": 0.6641666666666667,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "xgboost": {
+      "model": "all_features_RS_plus_GIS_etc/xgboost",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.510124395717616,
+      "pr_auc_95ci": {
+        "ci_low": 0.1983798462715513,
+        "ci_high": 0.8237202380952381,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.9377777777777778,
+      "roc_auc_95ci": {
+        "ci_low": 0.8712732431779764,
+        "ci_high": 0.9876870552818829,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.4444444444444444,
+      "balanced_accuracy_at_0.5": 0.7097222222222221,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    },
+    "lightgbm": {
+      "model": "all_features_RS_plus_GIS_etc/lightgbm",
+      "n_total": 209,
+      "n_valid_oof": 209,
+      "n_positive": 9,
+      "pr_auc": 0.6384810043006299,
+      "pr_auc_95ci": {
+        "ci_low": 0.31866649831649835,
+        "ci_high": 0.90421164021164,
+        "n_valid_boot": 2000
+      },
+      "roc_auc": 0.9472222222222222,
+      "roc_auc_95ci": {
+        "ci_low": 0.8894319514237855,
+        "ci_high": 0.9929380009429515,
+        "n_valid_boot": 2000
+      },
+      "f1_at_0.5": 0.5555555555555556,
+      "balanced_accuracy_at_0.5": 0.7677777777777778,
+      "fold_reports": [
+        {
+          "fold": 0,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 1,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 2,
+          "n_train": 168,
+          "n_test": 41,
+          "n_pos_train": 8,
+          "n_pos_test": 1
+        },
+        {
+          "fold": 3,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        },
+        {
+          "fold": 4,
+          "n_train": 167,
+          "n_test": 42,
+          "n_pos_train": 7,
+          "n_pos_test": 2
+        }
+      ]
+    }
+  }
+}

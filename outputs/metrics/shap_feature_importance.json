@@ -1,0 +1,88 @@
+{
+  "model": "logistic_regression_no_RS_primary_refit_on_full_tierAB",
+  "n_parcels": 209,
+  "n_positive": 9,
+  "feature_importance_by_mean_abs_shap": [
+    {
+      "feature": "agri_fraction_r100m",
+      "mean_abs_shap": 1.390864299742766,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "distance_to_road_m",
+      "mean_abs_shap": 1.281204464722217,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "builtup_fraction_r100m",
+      "mean_abs_shap": 1.1428172378495876,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "conversion_year",
+      "mean_abs_shap": 0.9450465792357334,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "years_since_conversion",
+      "mean_abs_shap": 0.9450465792357333,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "mean_elevation_m",
+      "mean_abs_shap": 0.78698089032606,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "perimeter_m",
+      "mean_abs_shap": 0.7270604766407506,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "builtup_fraction_r250m",
+      "mean_abs_shap": 0.59011658036232,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "area_m2",
+      "mean_abs_shap": 0.5492322671942255,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "compactness",
+      "mean_abs_shap": 0.50157028805396,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "distance_to_irrigation_m",
+      "mean_abs_shap": 0.26019142039073095,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "agri_fraction_r500m",
+      "mean_abs_shap": 0.25693815859675256,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "builtup_fraction_r500m",
+      "mean_abs_shap": 0.22549848228941768,
+      "coef_sign": "+"
+    },
+    {
+      "feature": "distance_to_agriculture_m",
+      "mean_abs_shap": 0.17221816160105394,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "agri_fraction_r250m",
+      "mean_abs_shap": 0.05580728450975225,
+      "coef_sign": "-"
+    },
+    {
+      "feature": "elevation_range_m",
+      "mean_abs_shap": 0.0,
+      "coef_sign": "-"
+    }
+  ],
+  "caveat": "SHAP values describe associations the fitted model relied on, not causal drivers of recovery. Refit on the full dataset for interpretability; out-of-sample performance is reported separately from spatial cross-validation (EXP03-10)."
+}
